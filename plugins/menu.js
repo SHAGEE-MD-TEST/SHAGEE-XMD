@@ -10,7 +10,7 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-return await conn.sendMessage(from,{image: {url: config.ALIVE_IMG},caption: config.ALIVE_MSG},{quoted: mek})
+return await conn.sendMessage(from,{image: {url:`https://i.ibb.co/M5g5DdYY/Golden-Queen-MD-VIMAMODS-67006b1fdd617d59.jpg`},caption: config.ALIVE_MSG},{quoted: mek})
 }catch(e){
 console.log(e)
 reply(`${e}`)
@@ -21,6 +21,7 @@ reply(`${e}`)
 //===========menu========
 cmd({
     pattern: "menu",
+    alias: ["shagee"],
     desc: "To get the menu.",
     react: "🍃",
     category: "main",
@@ -53,11 +54,13 @@ let madeMenu = `
 👋 𝐇𝐄𝐋𝐋𝐎, ${pushname}!
 
 ✨ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗦𝗛𝗔𝗚𝗘𝗘 𝗠𝗗  ✨ 
+
 ╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ」
 │◈ яυηтιмє * ${runtime(process.uptime())}
 │◈ σωηєя ηαмє * 𝘚𝘏𝘈𝘎𝘌𝘌
 │◈ σωηєя ηυмвєя * 94710136994
 ╰──────────●●►
+
 ╭──────────●●►
  📥 *𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐌𝐞𝐧𝐮*
   ───────
@@ -112,7 +115,7 @@ let madeMenu = `
 
 > *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙳𝙸𝙽𝙴𝚃𝙷 𝚆𝙸𝚂𝙷𝙼𝙸𝚃𝙷𝙰*`
 
-return await conn.sendMessage(from,{image: {url: `https://files.catbox.moe/de82e3.jpg`},caption:madeMenu},{quoted: mek})
+return await conn.sendMessage(from,{image: {url: `https://i.ibb.co/M5g5DdYY/Golden-Queen-MD-VIMAMODS-67006b1fdd617d59.jpg`},caption:madeMenu},{quoted: mek})
 }catch(e){
 console.log(e)
 reply(`𝔼𝕣𝕣𝕣𝕠𝕣`)
