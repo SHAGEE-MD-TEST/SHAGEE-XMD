@@ -1,12 +1,12 @@
 {
-  "name": "QUEEN_RASHU",
+  "name": "SHAGEE",
   "version": "1.0.0",
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name queenrashumd",
-    "stop": "pm2 stop queenrashumd",
-    "restart": "pm2 restart queenrashumd"
+    "start": "pm2 start index.js --deep-monitoring --attach --name shagee",
+    "stop": "pm2 stop shagee",
+    "restart": "pm2 restart shagee"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
