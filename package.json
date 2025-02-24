@@ -1,12 +1,12 @@
 {
-  "name": "SHAGEE",
+  "name": "shagee",
   "version": "1.0.0",
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name shagee",
-    "stop": "pm2 stop shagee",
-    "restart": "pm2 restart shagee"
+    "start": "pm2 start index.js --deep-monitoring --attach --name dinu",
+    "stop": "pm2 stop dinu",
+    "restart": "pm2 restart dinu"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
@@ -44,12 +44,7 @@
     "@dark-yasiya/news-scrap" : "latest",
     "@sl-code-lords/esana-news" : "latest",
     "@dark-yasiya/yt-dl.js": "latest",
-    "@dark-yasiya/news-scrap": "1.0.1",
     "hirunews-scrap": "^1.1.2",
-    "google-tts-api":"2.0.2",
-    "@mrnima/tiktok-downloader":"1.0.0",
-    "@mrnima/facebook-downloader":"1.0.0",
     "mrnima-moviedl":"1.0.0"
   }
 }   
-
