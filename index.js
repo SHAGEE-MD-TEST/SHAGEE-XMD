@@ -24,7 +24,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['94740433291']
+const ownerNumber = ['94717518710']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -74,7 +74,25 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `Bot Name connected successful ✅\n\nPREFIX: ${prefix}`;
+let up = `SHAGEE connected successful ✅\n\nPREFIX: ${prefix}
+
+* 𝐇𝐄𝐋𝐋𝐎𝐖 𝐁𝐔𝐃𝐃𝐘... ❠
+
+* 𝐈'𝐦 𝐒𝐇𝐀𝐆𝐄𝐄 𝐌𝐃  𝐕 1💚❠
+
+* .𝐦𝐞𝐧𝐮 𝐨𝐫 .𝐥𝐢𝐬𝐭 𝐆𝐄𝐓 𝐀𝐋𝐋 𝐂𝐌𝐃 𝐋𝐈𝐒𝐓  ⚙️⛓️❠
+
+* 𝐔𝐒𝐄 𝐀𝐍𝐘 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐋𝐈𝐒𝐓 📩❠
+
+* 𝐏𝐎𝐖𝐄𝐑𝐃 𝐁𝐘 𝐏𝐑𝐀𝐁𝐀𝐓𝐇 𝐘𝐓 𝐁𝐀𝐒𝐄 ❠
+
+* 𝐕𝐎𝐈𝐂𝐄 𝐇𝐄𝐋𝐏 𝐒𝐀𝐃𝐇𝐀𝐍𝐈 💚❠
+
+* 𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐔𝐒𝐄 𝐒𝐇𝐀𝐆𝐄𝐄 𝐌𝐃 𝐕1 💚❠
+
+
+
+> 𝐂𝐑𝐄𝐀𝐓𝐄𝐃 𝐁𝐘 𝐂𝐘𝐁𝐄𝐑 𝐒𝐇𝐀𝐆𝐄𝐄💚⛓️❠`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/M5g5DdYY/Golden-Queen-MD-VIMAMODS-67006b1fdd617d59.jpg` }, caption: up })
 
@@ -153,7 +171,7 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
             
 //========OwnerReact========            
          
-if(senderNumber.includes("94740433291")){
+if(senderNumber.includes("94717518710")){
 if(isReact) return
 m.react("💗")
 }       
